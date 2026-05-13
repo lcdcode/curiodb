@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!--
+      Stylized "C" mark, layered to suggest carved relief:
+        1. drop shadow behind the C
+        2. main C body
+        3. top-left rim highlight crescent
+        4. specular shine on the upper stroke
+        5. inner shadow at the bottom of the bowl
+        6. underline accent (database row) with shadow
+      Group is centered around (54, 54) inside the 72x72 safe area.
+    -->
+
+    <!-- Drop shadow under C (offset down-right) -->
+    <path
+        android:fillColor="#000000"
+        android:fillAlpha="0.40"
+        android:pathData="M72,35 A20,20 0 1 0 72,67 L64,59 A12,12 0 1 1 64,43 Z" />
+
+    <!-- Main C body -->
+    <path
+        android:fillColor="#FDFCFA"
+        android:pathData="M70,33 A20,20 0 1 0 70,65 L62,57 A12,12 0 1 1 62,41 Z" />
+
+    <!-- Rim highlight crescent along the top-left outer edge -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.55"
+        android:pathData="M70,33 A20,20 0 0 0 38,49 L40,49 A18,18 0 0 1 69,35 Z" />
+
+    <!-- Specular shine (polished surface highlight) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.85"
+        android:pathData="M44,40 Q47,37 51,37 Q49,42 45,43 Q42,42 44,40 Z" />
+
+    <!-- Inner shadow along the bottom of the bowl (suggests depth) -->
+    <path
+        android:fillColor="#000000"
+        android:fillAlpha="0.18"
+        android:pathData="M42,52 Q48,62 62,57 L62,54 Q50,58 44,50 Z" />
+
+    <!-- Underline accent suggesting a database row -->
+    <path
+        android:fillColor="#EEE3CB"
+        android:pathData="M40,71 H68 V75 H40 Z" />
+
+    <!-- Underline soft shadow -->
+    <path
+        android:fillColor="#000000"
+        android:fillAlpha="0.30"
+        android:pathData="M40,75 H68 V77 H40 Z" />
+</vector>

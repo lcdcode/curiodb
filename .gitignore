@@ -1,0 +1,37 @@
+# IDE / editor
+.idea/
+.claude/
+.vscode/
+*.iml
+out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Gradle / build
+.gradle/
+.kotlin/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+
+# Android build outputs
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Signing & secrets
+*.keystore
+*.jks
+keystore.properties
+*.p12
+.env
+.env.*
+
+# Logs & dumps
+*.log
+*.hprof

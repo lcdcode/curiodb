@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CurioDB</string>
-    <string name="action_new_database">New database</string>
-    <string name="empty_home_hint">No databases yet.\nTap the button to create one.</string>
+    <string name="home_subtitle">Curated Collections</string>
+    <string name="action_new_database">New collection</string>
+    <string name="empty_home_title">The cabinet is empty</string>
+    <string name="empty_home_hint">Begin a new collection to fill these shelves.</string>
 </resources>
